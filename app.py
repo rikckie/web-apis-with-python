@@ -1,4 +1,7 @@
-from flask import Flask, request, send_file, jsonify
+from flask import Flask
+from flask import request
+from flask import send_file
+from flask import jsonify
 from bin.filters import apply_filter
 
 app = Flask(__name__)
